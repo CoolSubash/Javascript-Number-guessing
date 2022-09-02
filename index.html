@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <section id="first-page">
+        <div class="first-container">
+            <h1 id="start">Start Game</h1>
+             
+        </div>
+    </section>
+
+    <section id="second-page">
+        <div class="secondpage">
+            <h1 id="name"></h1>
+        </div>
+       
+    </section>
+
+    <section id="third-page">
+       <div class="main-page-content">
+        <div class="main-heading">
+            <h1>Guessing Game</h1>
+        </div>
+
+        <div class="main-container">
+            <div class="computer-number">
+                <h1>?</h1>
+            </div>
+            <div class="your-number">
+                <label for="yournumber">Enter Your Number from 1 to 20 :</label>
+                <input type="text" name="" id="yournumber" >
+                <span id="check" style="cursor:pointer;">Check</span>
+            </div>
+
+            <div class="display">
+                <h1 id="display-victory"></h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="timer">
+                <h1>Time taken to Complete:</h1>
+                <span id="time"></span>
+            </div>
+
+            <div class="try-chance">
+                 <div class="text">
+                    <h1>Chance to try : </h1>
+                    <span id="chance">10</span>
+                 </div>
+
+            </div>
+            </div>
+       </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

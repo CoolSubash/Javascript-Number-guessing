@@ -1,0 +1,116 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first-page{
+    background-image: url("Number.png");
+    background-size: cover;
+    background-position: center;background-image: linear-gradient(to right top, #24549b09, #486f7d54,#64724482),url('Number.png');
+
+}
+.first-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.first-container h1{
+    background-color: rgb(165, 26, 193);
+    padding:10px 16px;
+    cursor: pointer;
+}
+#first-page{
+    display:block;
+}
+
+
+#second-page{
+    display: none;
+}
+.secondpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-size: cover;
+    background-image: url("Welcome.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+  
+   
+}
+
+#name{
+    background-image: url("back.jpg");
+            background-repeat: repeat;
+            background-position: center;
+           -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+           
+            font-size: 120px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+}
+
+
+
+/* -----THIRD PAGE----- */
+
+.main-heading h1{
+    text-align: center;
+}
+
+.computer-number {
+    margin:2rem 0rem;
+    background-color: aquamarine;
+    width:200px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+   
+    
+}
+.computer-number h1{
+    font-size:8rem;
+}
+.your-number{
+    text-align: center;
+}
+#yournumber{
+    outline: none;
+    padding: 15px;
+    margin:0rem 10px;
+
+}
+
+
+.footer{
+    display: flex;
+  
+    width:80%;
+    margin:3rem auto;
+    justify-content: space-between;
+}
+
+#check{
+    background-color: blueviolet;
+    padding: 12px 50px;
+    font-size:1.2rem;
+}
+#display-victory {
+    text-align: center;
+    margin:2rem 0rem;
+}
